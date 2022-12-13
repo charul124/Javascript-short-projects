@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+h2 {
+    padding: 40px;
+}
+
+#info div {
+    padding: 3rem;
+    background-color: rgb(251, 230, 157);
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: rgb(3, 18, 32);
+    font-size: 1.2rem;
+    text-align: center;
+}
